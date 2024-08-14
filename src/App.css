@@ -1,0 +1,61 @@
+/* Root element styling */
+#root {
+  /* Maximum width of the container */
+  max-width: 1280px;
+  /* Center the container horizontally */
+  margin: 0 auto;
+  /* Padding inside the container */
+  padding: 2rem;
+  /* Center the text inside the container */
+  text-align: center;
+}
+
+/* Styling for each square in the tic-tac-toe board */
+.square {
+  /* Width of each square */
+  width: 100px;
+  /* Height of each square */
+  height: 100px;
+  /* Font size of the text inside the square */
+  font-size: 2rem;
+  /* Display each square as an inline-block element */
+  display: inline-block;
+  /* Margin around each square */
+  margin: 5px;
+  /* Center the text inside the square */
+  text-align: center;
+  /* Vertically align the text in the middle */
+  vertical-align: middle;
+}
+
+/* Styling for squares with value 'X' */
+.square.X {
+  /* Background color for 'X' squares */
+  background-color: green;
+  /* Text color for 'X' squares */
+  color: white;
+}
+
+/* Styling for squares with value 'O' */
+.square.O {
+  /* Background color for 'O' squares */
+  background-color: red;
+  /* Text color for 'O' squares */
+  color: white;
+}
+
+/* Styling for each row in the tic-tac-toe board */
+.board-row {
+  /* Display the row as a flex container */
+  display: flex;
+  /* Center the squares horizontally within the row */
+  justify-content: center;
+}
+
+/* Styling for the status message */
+.status {
+  /* Margin below the status message */
+  margin-bottom: 20px;
+  /* Font size of the status message */
+  font-size: 1.5rem;
+}
